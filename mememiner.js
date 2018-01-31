@@ -36,7 +36,7 @@ client.on("message", message => {
         if(r<robot){
           message.channel.send("!buy max robot");
         } else{console.log("Robots done!")}
-  //      if(m!=miner){
+  //      if(m<miner){
   //        message.channel.send("!buy max miner");
   //      } else{}
         message.channel.send("!units")
@@ -94,7 +94,7 @@ client.on("message", message => {
       if (u.includes("total memes per minute")){
         var v = u.split("\n")[0].split(" \r").slice(0,4)
         var z = [];
-        for (i = 0; i < 4; i++) { 
+        for (i = 0; i < v.length; i++) { 
           z.push(v[i].replace(/`/g, "").replace(/,/g, ""))      
         }
         console.log(z)
