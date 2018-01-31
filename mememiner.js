@@ -1,7 +1,8 @@
 //MEME MINER for a DISCORD BOT named meme_coin_banker
 //WARNING- This is a self-bot and discord is strict against self bots.
 //Your account might get suspended.
-//So I DO NOT STAND RESPONSIBLE FOR ANY DAMAGE THAT HAPPENS TO YOUR ACCOUNT
+//So I DO NOT STAND RESPONSIBLE FOR ANY DAMAGE THAT HAPPENS TO YOUR ACCOUNT.
+
 //save this file in an empty folder, open command prompt in the folder location, type `npm install discord.js`
 
 const Discord = require("discord.js");
