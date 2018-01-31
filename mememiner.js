@@ -45,7 +45,7 @@ client.on("message", message => {
           message.channel.send("!prestige YESIMSURE")
           m = r = s = f = 0
         } else {}
-      }, 61100);
+      }, 63000);
     }
   }
 });
