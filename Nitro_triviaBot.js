@@ -40,10 +40,7 @@ qa_dict={
 };
 
 client.on('message', (message) => {
-//can also make channel specific by putting
-//&& message.channel.id === "Channel ID"
-//next to "Nitro"
-	if(message.author.username === "Nitro" ){
+	if(message.author.username === "Nitro" && message.channel.id === "Channel_ID" ){
 	    message.embeds.forEach((embed) => {
 	        q=embed.fields[3].value
 
