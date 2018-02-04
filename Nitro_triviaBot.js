@@ -20,7 +20,7 @@ qa_dict={
      "Which of these names was an actual codename for a cancelled Microsoft project?":"Neptune",
      "Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?":"Cheetah",
      "Who is the original author of the realtime physics engine called PhysX?":"NovodeX",
-     "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?":"Shellshock",
+     "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?":"Heartbleed",
      "The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.":"False",
      'What was the first company to use the term "Golden Master"?':'Apple',
      "Which data structure does FILO apply to?":"Stack",
@@ -35,7 +35,8 @@ qa_dict={
      "What internet protocol was documented in RFC 1459?":"IRC",
      "What vulnerability ranked #1 on the OWASP Top 10 in 2013?":"Injection",
      "What port does HTTP run on?":"80",
-     "DHCP stands for Dynamic Host Configuration Port.":"False"
+     "DHCP stands for Dynamic Host Configuration Port.":"False",
+     "America Online (AOL) started out as which of these online service providers?":"Quantum Link"
 };
 
 client.on('message', (message) => {
