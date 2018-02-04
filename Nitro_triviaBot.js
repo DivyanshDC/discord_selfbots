@@ -1,5 +1,10 @@
 //This is a self bot which answers to "hard computers" trivia questions by Nitro bot.
 //Was just for testing. Will add self learning in the future.
+
+//WARNING- This is a self-bot and discord is strict against self bots.
+//Your account might get suspended.
+//So I DO NOT STAND RESPONSIBLE FOR ANY DAMAGE THAT HAPPENS TO YOUR ACCOUNT.
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
